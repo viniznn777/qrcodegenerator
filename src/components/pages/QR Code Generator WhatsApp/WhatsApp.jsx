@@ -36,7 +36,7 @@ const WhatsAppGenerator = () => {
       <ToastContainer />
       <div className={styles.leftSide}>
         <div className={styles.title}>
-          <h1>Manage your QR Code</h1>
+          <h1 className={styles.h1}>Manage your QR Code</h1>
         </div>
         <input
           type="number"
